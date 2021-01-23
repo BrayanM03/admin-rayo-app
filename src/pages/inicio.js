@@ -1,30 +1,11 @@
-import React from 'react'
-import Card from '../components/card'
+import React, { Component } from 'react'
 
-
-function Inicio() {
-    constructor(props){
-        super(props)
-        
+export default class inicio extends Component {
+    render() {
+        return (
+            <div>
+                
+            </div>
+        )
     }
-    
-
-    return(
-        <div className="contenedor">
-<Bienvenida
-    usuario="Brayan"
-/>
-{
-    this.state.data.map()
 }
-<Card
-titulo="Inicio"
-descripcion="Soy el inicio"
-gradiente="160deg, #0093E9 0%, #80D0C7 100%"
-/>
-</div>
-
-    )
-  }
-
-export default Incio
