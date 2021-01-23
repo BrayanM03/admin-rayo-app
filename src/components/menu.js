@@ -51,11 +51,11 @@ export default class Menu extends Component {
       <div className="bg-white py-2 collapse-inner rounded">
         <h6 className="collapse-header">Ordenes de:</h6>
         <a className="collapse-item" href="utilities-color.html">
-          <img src="./img/ventas.svg" width="18px" /> 
+          <img src="../src/img/ventas.svg" width="18px" /> 
           <span style={{marginLeft: 12}}> Ventas</span>
         </a>
         <a className="collapse-item" href="utilities-border.html">
-          <img src="./src/img/compras.svg" width="18px" /> 
+          <img src="./scr/img/compras.svg" width="18px" /> 
           <span style={{marginLeft: 12}}> Compras</span>
         </a>
       </div>
